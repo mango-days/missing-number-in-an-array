@@ -3,6 +3,5 @@ list_size=len(list)
 list.sort()
 index=0
 diff = list[index]-index
-while list[index]-index==diff:
-    index+=1
+while list[index]-index==diff: index+=1
 print (index+diff)
